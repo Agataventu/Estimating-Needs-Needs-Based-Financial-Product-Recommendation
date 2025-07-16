@@ -15,6 +15,7 @@ Inspired by real-world business use cases, we explored **explicit** and **implic
 
 ## Project Structure
 ├── Dataset_Needs.xls     # Main input dataset
+
 ├── EstimatingNeeds.ipynb # Feature engineering and base models + voting ensemble models
 ├── README.md # You are here
 
