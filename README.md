@@ -14,19 +14,16 @@ In other words, we want to:
 Inspired by real-world business use cases, we explored **explicit** and **implicit** need labels, building recommendation models that could assist financial advisors in scalable, ethical, and accurate personalization.
 
 ## Project Structure
-├── Dataset_Needs.xls # Main input dataset
+├── Dataset_Needs.xls     # Main input dataset
 ├── EstimatingNeeds.ipynb # Feature engineering and base models + voting ensemble models
 ├── README.md # You are here
 
 ### Data Exploration
-
-
-- Power transformations to improve feature distributions.
-- Outlier removal for inconsistent age–education correlations.
+Power transformations to improve feature distributions.
+Outlier removal for inconsistent age–education correlations.
 
 ### Feature Engineering
-- Engineered variables related to income, accumulation goals, and financial education.
-- Filtering unreliable entries (e.g., edge-case age segments).
+Engineered variables related to income, accumulation goals, and financial education.
 
 ### Modeling
 - Multi-Layer Perceptron (MLP)
@@ -37,9 +34,6 @@ Inspired by real-world business use cases, we explored **explicit** and **implic
 ### Recommendation Logic
 - Client–Product matching using explicit/implicit needs
 - Consideration of regulatory constraints (MIFID/IDD)
-- Foundation in supervised ML:  
-  `Need(i, t) = f(client_situation(t), context(t))`
-
 
 **Team Members**: Brignoli Ettore Davide, Capoferri Luca, Untila Denis, Venturi Agata  
 
