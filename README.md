@@ -38,4 +38,6 @@ Engineered variables related to income, accumulation goals, and financial educat
 - Consideration of regulatory constraints (MIFID/IDD)
 
 **Team Members**: Brignoli Ettore Davide, Capoferri Luca, Untila Denis, Venturi Agata  
+ 
+( This project was developed for academic purposes as part of the Fintech course at Politecnico di Milano (PoliMI). )
 
